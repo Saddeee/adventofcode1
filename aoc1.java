@@ -14,7 +14,7 @@ public class aoc1{
     public static int aoc(){
         int summa = 0;
         try{
-            BufferedReader file = new BufferedReader(new FileReader("/Users/sadde/kth/repos/aoc/aoc1/text.txt"));
+            BufferedReader file = new BufferedReader(new FileReader("filename"));
             String line;
             while((line = file.readLine()) != null){
                 String cal = "";
